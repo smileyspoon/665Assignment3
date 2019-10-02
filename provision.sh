@@ -22,7 +22,7 @@ function remove_all(){
 
 #	chmod 777 /usr/share/nginx/html/*
 
-	rm /usr/share/nginx/html/*
+	sudo rm /usr/share/nginx/html/*
 
 	sudo yum remove nginx -y
 }
